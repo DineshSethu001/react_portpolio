@@ -1,16 +1,14 @@
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import Service from "./components/Service";
+import Header from './components/Header'
+import About from './components/About';
 
-export default function App() {
+const App = () => {
   return (
-    <div>
-      {/* navbar section */}
-      <Navbar />
-      {/* Home Section */}
-      <Home />
-      {/* service section */}
-      <Service />
+    <div className='flex'>
+      <Header />
+      <About />
+    
     </div>
   );
-}
+};
+
+export default App;
