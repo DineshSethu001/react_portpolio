@@ -6,7 +6,7 @@ export default function Header() {
       <header className="bg-violet-600 w-64 min-h-screen text-white p-4 flex flex-col justify-between rounded-lg">
         <div className="container mx-auto flex flex-col items-center flex-grow">
           <div className="text-xl font-bold text-center">
-            <img src={logo} alt="logo" className='h-24 h-24'/>
+            <img src={logo} alt="logo" className='h-24 w-24'/>
           </div>
           <nav className='mt-8'>
             <ul className="flex flex-col justify-evenly space-y-4">
